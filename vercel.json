@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/**.ts": {
+    "api/card.tsx": {
       "runtime": "edge"
     }
   }
