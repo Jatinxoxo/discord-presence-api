@@ -1,15 +1,22 @@
 {
-  "name": "discord-presence-card",
+  "name": "discord-presence-api",
   "version": "1.0.0",
-  "type": "module",
+  "description": "Discord presence card API using Lanyard",
   "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "@vercel/og": "^0.7.2",
-    "react": "^18.2.0"
-  },
   "scripts": {
     "dev": "vercel dev",
+    "build": "vercel build",
     "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@vercel/og": "^0.5.22",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

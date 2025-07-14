@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/card.tsx": {
-      "runtime": "edge"
+      "runtime": "@vercel/og@0.5.22"
     }
   }
 }
